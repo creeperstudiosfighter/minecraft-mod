@@ -1,0 +1,14 @@
+// YourSwordItem.java
+
+package com.yourmodid;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemTier;
+import net.minecraft.item.SwordItem;
+
+public class YourSwordItem extends SwordItem {
+
+    public YourSwordItem() {
+        super(ItemTier.diamond, 16, -1.4F, new Item.Properties().group(ItemGroup.COMBAT));
+    }
+}
