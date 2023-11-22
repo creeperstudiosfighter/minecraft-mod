@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Coding Platform</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Learn to Code</h2>
+            <p>Start your coding journey with our interactive lessons and tutorials.</p>
+        </section>
+        
+        <section>
+            <h2>Practice Coding</h2>
+            <p>Sharpen your coding skills by solving real-world problems in our coding playground.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Coding Website</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
